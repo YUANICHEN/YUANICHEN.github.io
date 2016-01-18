@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Emblema One";
+    src: url("EmblemaOne-Regular.woff"),
+     url("EmblemaOne-Regular.ttf");
+}
+
+
+h1 {
+    font-size: 120pt;
+    font-family: Emblema ONe; bottom: 1px solid black;
+}
+
+h2 {
+    font-size: 40pt;
+}
+
+h3.bigger {
+    font-size: 25pt;
+    color: orange
+}
+
+h3.smaller {
+    font-size: 20pt;
+    color: orange
+}
+
+p.green {
+    color: green;
+}
+
+p.lightblue {
+    color: blue;
+}
+
+p.blue {
+    color: purple;
+}
+
+p.red {
+    color: red;
+}
+
+div>p {
+    font-size: 30pt;
+}
+
+li>p {
+    font-size: 20pt
+}
