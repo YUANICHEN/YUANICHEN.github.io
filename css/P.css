@@ -1,3 +1,9 @@
+#bk {
+    display: block;
+    text-align: center;
+    margin:auto;
+}
+
 .list {
     position: fixed;
     width: 2000px;
