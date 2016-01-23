@@ -1,0 +1,89 @@
+.list {
+    position: fixed;
+    width: 2000px;
+    height: 50px;
+    background-color: #9A5927;
+    margin: auto;
+    font-weight: bold;
+}
+
+ul li {
+    float: left;
+    display: block;
+    background-color: #9A5927;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+ul li a {
+    color: #F9F59A;
+    text-decoration: none;
+    /*沒有底線*/
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li:hover {
+    background-color: #ba7947;
+}
+
+ul li ul li:hover {
+    background-color: #F9F59A;
+}
+
+ul li ul li:hover a {
+    color: #9A5927;
+}
+
+#good {
+    display: block;
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    background: #F3CE8B;
+    margin: auto;
+    float: left;
+}
+
+#feature {
+    display: block;
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    margin-left: 475px;
+    margin: auto;
+    background: #F3CE8B;
+}
+
+#bad {
+    display: block;
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    background: #F3CE8B;
+    margin: auto;
+    float: right;
+}
+
+h2 {
+    font-size: 30px;
+    border-style: dashed;
+    border-color: #9A5927;
+    color: #9A5927;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #9A5927;
+    font-weight: bold;
+}
